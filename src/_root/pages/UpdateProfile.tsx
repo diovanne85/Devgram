@@ -84,7 +84,7 @@ const UpdateProfile = () => {
             alt="edit"
             className="invert-white"
           />
-          <h2 className="h3-bold md:h2-bold text-left w-full">Edit Profile</h2>
+          <h2 className="h3-bold md:h2-bold text-white text-left w-full">Edit Profile</h2>
         </div>
 
         <Form {...form}>
