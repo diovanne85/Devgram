@@ -52,7 +52,7 @@ const Profile = () => {
           />
           <div className="flex flex-col flex-1 justify-between md:mt-2">
             <div className="flex flex-col w-full">
-              <h1 className="text-center xl:text-left h3-bold md:h1-semibold w-full">
+              <h1 className="text-center text-white xl:text-left h3-bold md:h1-semibold w-full">
                 {currentUser.name}
               </h1>
               <p className="small-regular md:body-medium text-light-3 text-center xl:text-left">
@@ -75,7 +75,7 @@ const Profile = () => {
             <div className={`${user.id !== currentUser.$id && "hidden"}`}>
               <Link
                 to={`/update-profile/${currentUser.$id}`}
-                className={`h-12 bg-dark-4 px-5 text-light-1 flex-center gap-2 rounded-lg ${
+                className={`h-12 bg-blue-300 px-5 text-black flex-center gap-2 rounded-lg ${
                   user.id !== currentUser.$id && "hidden"
                 }`}>
                 <img
@@ -103,7 +103,7 @@ const Profile = () => {
           <Link
             to={`/profile/${id}`}
             className={`profile-tab rounded-l-lg ${
-              pathname === `/profile/${id}` && "!bg-dark-3"
+              pathname === `/profile/${id}` && "!bg-blue-500"
             }`}>
             <img
               src={"/assets/icons/posts.svg"}
@@ -116,7 +116,7 @@ const Profile = () => {
           <Link
             to={`/profile/${id}/liked-posts`}
             className={`profile-tab rounded-r-lg ${
-              pathname === `/profile/${id}/liked-posts` && "!bg-dark-3"
+              pathname === `/profile/${id}/liked-posts` && "!bg-blue-500"
             }`}>
             <img
               src={"/assets/icons/like.svg"}

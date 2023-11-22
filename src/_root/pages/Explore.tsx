@@ -77,7 +77,7 @@ const Explore = () => {
         <h3 className="body-bold text-white md:h3-bold">Popular Today</h3>
 
         <div className="flex-center gap-3 bg-blue-300 rounded-xl px-4 py-2 cursor-pointer">
-          <p className="small-medium md:base-medium text-dark-2">All</p>
+          <p className="small-medium md:base-medium text-white">All</p>
           <img
             src="/assets/icons/filter.svg"
             width={20}
