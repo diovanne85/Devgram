@@ -104,10 +104,10 @@ const SigninForm = () => {
           </Button>
 
           <p className="text-small-regular text-secondary-color text-center mt-2">
-            Don&apos;t have an account?
+           I Don&apos;t have an account?
             <Link
               to="/sign-up"
-              className="text-secondary-color text-small-semibold ml-1">
+              className="text-primary-color text-small-semibold ml-1">
               Sign up
             </Link>
           </p>
