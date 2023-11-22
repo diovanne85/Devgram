@@ -12,9 +12,6 @@
   body {
     @apply bg-blue-400 text-dark-1 min-h-screen font-Karla;
   }
-  svg{
-     @apply fill-blue-900
-  }
 }
 
 @layer utilities {
