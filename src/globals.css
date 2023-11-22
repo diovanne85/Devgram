@@ -12,6 +12,9 @@
   body {
     @apply bg-blue-400 text-dark-1 min-h-screen font-Karla;
   }
+  svg{
+     @apply fill-blue-900
+  }
 }
 
 @layer utilities {
@@ -237,7 +240,7 @@
 
   /* Topbar */
   .topbar {
-    @apply sticky top-0 z-50 md:hidden bg-blue-300 w-full;
+    @apply sticky top-0 z-50 md:hidden bg-blue-100 w-full;
   }
 
   /* User card */
@@ -267,7 +270,7 @@
 
   /* Button */
   .shad-button_primary {
-    @apply bg-primary-500 hover:bg-primary-500 text-light-1 flex gap-2 !important;
+    @apply bg-primary-500 hover:bg-primary-500 text-dark-1 flex gap-2 !important;
   }
 
   .shad-button_dark_4 {
