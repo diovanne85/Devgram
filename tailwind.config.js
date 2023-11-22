@@ -19,6 +19,7 @@ module.exports = {
     },
     extend: {
       colors: {
+   
         "primary-500": "#80C8F0",
         "primary-600": "#5D5FEF",
         "secondary-500": "#FFB620",
@@ -32,6 +33,7 @@ module.exports = {
         "light-2": "#EFEFEF",
         "light-3": "#7878A3",
         "light-4": "#5C5C7B",
+        
       },
       screens: {
         xs: "480px",
@@ -41,7 +43,7 @@ module.exports = {
         465: "465px",
       },
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
+        Karla: ["Karla", "sans-serif"],
       },
       keyframes: {
         "accordion-down": {
