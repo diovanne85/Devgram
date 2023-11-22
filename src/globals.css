@@ -10,7 +10,7 @@
   }
 
   body {
-    @apply bg-blue-400 text-dark-1 min-h-screen font-Karla;
+    @apply bg-blue-900 text-dark-1 min-h-screen font-Karla;
   }
 }
 
@@ -228,7 +228,7 @@
 
   /* Post Card */
   .post-card {
-    @apply bg-blue-200 rounded-3xl border border-dark-4 p-5 lg:p-7 w-full max-w-screen-sm;
+    @apply bg-blue-200 rounded-3xl border border-none  p-5 lg:p-7 w-full max-w-screen-sm;
   }
 
   .post-card_img {
@@ -242,7 +242,7 @@
 
   /* User card */
   .user-card {
-    @apply flex-center flex-col gap-4 border bg-blue-200 border-dark-4 rounded-[20px] px-5 py-8;
+    @apply flex-center flex-col gap-4 border bg-blue-200 border-none rounded-[20px] px-5 py-8;
   }
 }
 
@@ -250,7 +250,7 @@
   /* SHADCN COMPONENTS */
   /* Form */
   .shad-form_label {
-    @apply text-blue-800 !important;
+    @apply text-blue-900 !important;
   }
 
   .shad-form_message {
@@ -258,16 +258,16 @@
   }
 
   .shad-input {
-    @apply h-12 bg-blue-300 border-none placeholder:text-dark-1 !important;
+    @apply h-12 bg-blue-300 border-blue-300 placeholder:text-dark-1 focus-visible:ring-1 focus-visible:ring-offset-1 ring-offset-light-3 !important;
   }
 
   .shad-textarea {
-    @apply h-36 bg-blue-300 rounded-xl border-none  !important;
+    @apply h-36 bg-blue-300 rounded-xl border-none focus-visible:ring-1 focus-visible:ring-offset-1 ring-offset-light-3 !important;
   }
 
   /* Button */
   .shad-button_primary {
-    @apply bg-primary-500 hover:bg-primary-500 text-white flex gap-2 !important;
+    @apply bg-primary-500 hover:bg-primary-500 text-blue-900 flex gap-2 !important;
   }
 
   .shad-button_dark_4 {

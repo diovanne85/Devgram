@@ -46,3 +46,9 @@ export type INewUser = {
   username: string;
   password: string;
 };
+export type IComments ={
+  postid:string;
+  userId:string;
+  text:string;
+  created_at:string;
+}
