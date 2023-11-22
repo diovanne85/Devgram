@@ -59,7 +59,7 @@ const SigninForm = () => {
         <h2 className="h3-bold md:h2-bold pt-2 sm:pt-8 text-primary-color">
           Log in to your account
         </h2>
-        <p className="text-secondary-color small-medium md:base-regular mt-2">
+        <p className="text-primary-color small-medium md:base-regular mt-2">
           Start connecting to Developer community
         </p>
         <form
