@@ -60,6 +60,7 @@ const Explore = () => {
             alt="search"
           />
           <Input
+    
             type="text"
             placeholder="Search"
             className="explore-search"
