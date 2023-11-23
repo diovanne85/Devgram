@@ -250,7 +250,7 @@
   /* SHADCN COMPONENTS */
   /* Form */
   .shad-form_label {
-    @apply text-blue-900 !important;
+    @apply text-white !important;
   }
 
   .shad-form_message {
